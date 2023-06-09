@@ -17,5 +17,11 @@ public class diceGame{
 
 	int totalVal = die1 + die2;
 	System.out.println("Total value: " + totalVal);
+
+	if (totalVal > 7){
+	    System.out.println("You won.");
+	} else {
+	    System.out.println("You lost.");
+	}
     }
 }
